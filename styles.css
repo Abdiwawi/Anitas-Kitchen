@@ -1,0 +1,138 @@
+.intro{
+    background: url("../assets/backgrounds/landing.jpg");
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+}
+.intro .container{
+    padding: 6%;
+}
+.menu-button {
+    position: fixed;
+    z-index: 1000;
+    margin: 9px 30px;
+    padding: 0;
+    width: 3em;
+    height: 2.25em;
+    border: none;
+    text-indent: 2.5em;
+    font-size: 1.5em;
+    color: transparent;
+    background: transparent;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    opacity: 1;
+}
+.menu-button:focus{
+    outline: none;
+    background-color: transparent;
+}
+.menu-button::before {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    bottom: 0.5em;
+    left: 0.5em;
+    background: linear-gradient(#fff 20%, transparent 20%, transparent 40%, #fff 40%, #fff 60%, transparent 60%, transparent 80%, #fff 80%);
+    content: '';
+}
+.course .row{
+    margin:0;
+    padding:0;
+}
+.thehour{
+    padding:0;
+    height: 200px;
+}
+.happy{
+    position: relative;
+    height:50%;
+    background: #ffffff;
+    color: rgba(0, 0, 0, 0.67);
+    font-size: 25px;
+    padding: 40px;
+}
+.party{
+    position: relative;
+    height:50%;
+    background: orangered;
+    color: #000;
+    font-size: 25px;
+    padding: 40px;
+}
+.foood{
+    position: relative;
+    height: 200px;;
+}
+.foood div{
+    color: white;
+    padding: 70px;
+    font-size: 25px;
+}
+.b{
+    background: url("../assets/foodtop/breakfast.jpg");
+}
+.l{
+    background: url("../assets/foodtop/lunch.jpg");
+}
+.d{
+    background: url("../assets/foodtop/dinner.jpg");
+}
+.meals .container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.fast{
+    border:1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.73);
+}
+.fast div{
+    padding: 20px;
+}
+.meals .container .row:nth-child(2){
+    margin-top: 40px;
+}
+.drinks {
+    text-align: right;
+}
+.drimage{
+    border: 1px solid black;
+    padding: 20px;
+}
+.drimage div{
+    margin:0;
+    padding:0;
+}
+.menu{
+    background: url("../assets/backgrounds/foodsBg.jpg");
+}
+.content{
+    background: #fff;
+    height: 350px;
+    margin:100px 0;
+    box-shadow: black ;
+}
+.tabs{
+    font-size: 35px;
+}
+.tabs div {
+    height: 70px;
+    background: #c9c9c9;
+    border-left: 1px solid black;
+}
+.tabs div:first-child{
+    background: #ffffff;
+    color: #fb5f1f;
+}
+.mages{
+    padding: 20px 25px 0 25px;
+}
+.mages div{
+    padding: 0 5px;
+}
+
+
+
+
+
